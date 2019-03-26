@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id = "a">
+<input type="text" id = "b">
+
+<script>
+function tinhtong() {
+    let a;
+    let b;
+    a = parseInt(document.getElementById("a").value);
+    b = parseInt(document.getElementById("b").value);
+
+    let c = a + b;
+    alert(c);
+}
+function tinhhieu() {
+    let a;
+    let b;
+    a = parseInt(document.getElementById("a").value);
+    b = parseInt(document.getElementById("b").value);
+
+    let d = a - b;
+    alert(d);
+}
+function tinhtich() {
+    let a;
+    let b;
+    a = parseInt(document.getElementById("a").value);
+    b = parseInt(document.getElementById("b").value);
+
+    let e = a * b;
+    alert(e);
+}
+function tinhthuong() {
+    let a;
+    let b;
+    a = parseInt(document.getElementById("a").value);
+    b = parseInt(document.getElementById("b").value);
+
+    let f = a / b;
+    alert(f);
+}
+</script>
+
+
+<button onclick="tinhtong()">tong
+
+</button>
+<button onclick="tinhhieu()">hieu
+
+</button>
+<button onclick="tinhtich()">nhan
+
+</button>
+<button onclick="tinhthuong()">chia
+
+</button>
+</body>
+</html>
